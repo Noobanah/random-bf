@@ -1,0 +1,46 @@
+#user-name {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #B6CBBD;
+    border-radius: 15px;
+    border: none;
+}
+
+.profile {
+    border-radius: 30px;
+    border: solid 4px black;
+    width: 400px;
+}
+
+input, button, h1, h2, h3 {
+    font-family: kanit;
+}
+
+html {
+    background-color: #F8E1B7;
+    color: #754E1A;
+}
+
+@media (max-width: 599px) {
+    .profile {
+        border-radius: 30px;
+        border: solid 4px black;
+        width: 200px;
+    }
+}
